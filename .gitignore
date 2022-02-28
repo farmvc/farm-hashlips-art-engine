@@ -138,5 +138,9 @@ dist
 .tern-port
 
 # OSX
-
 .DS_Store
+*/.DS_Store
+*/**/.DS_Store
+
+# Custom
+layers/
