@@ -24,14 +24,13 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Skies" },
       { name: "Mountains" },
       { name: "Foothills" },
       { name: "Plains" },
-      { name: "Foreground" },
-      { name: "Subject" }
+      { name: "Foreground" }
     ],
   },
 ];
@@ -41,9 +40,9 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
-  smoothing: false,
+  width: 2048,
+  height: 2048,
+  smoothing: true,
 };
 
 const gif = {
